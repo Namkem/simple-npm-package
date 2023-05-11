@@ -1,0 +1,30 @@
+{
+  "name": "simple-npm-package",
+  "version": "1.0.0",
+  "description": "Simple NPM package (No React)",
+  "main": "dist/index.js",
+  "scripts": {
+	"build": "npx babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Namkem/simple-npm-package.git"
+  },
+  "keywords": [
+    "best",
+    "package",
+    "ever"
+  ],
+  "author": "Namkem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Namkem/simple-npm-package/issues"
+  },
+  "homepage": "https://github.com/Namkem/simple-npm-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5"
+  }
+}
